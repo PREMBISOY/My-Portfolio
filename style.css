@@ -1,0 +1,103 @@
+.header
+{
+display:flex;
+justify-content: space-between;
+Background-color:greenyellow;
+}
+.mainContent
+{
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+/* background-repeat: no-repeat;
+background-image: url("minecraft.jpeg"); */
+background-color:gold;
+}
+
+.Social_med
+{
+display:flex;
+
+/* flex-wrap: wrap; */
+flex-direction: column;
+align-items: center;
+background-color:greenyellow;
+}
+.desc
+{
+display:flex;
+flex-direction: column;
+align-items: center;
+background-color:orange;
+}
+
+.Social_med_2
+{
+display:flex;
+background-color:greenyellow;
+}
+.mainContent_2
+{
+
+background-color:gold;
+}
+
+body
+{
+    background-image:url("voltron--bg.jpeg");
+}
+.aboutMe_logo
+{
+    padding:20px;
+margin-top: 5px;
+margin-right: 5px;
+
+}
+
+.item p
+{
+    font-size: 20px;
+position : absolute;
+top : 50%;
+left : 35%;
+opacity: 0;
+}
+.item
+{
+ position : relative;
+
+
+}
+.item:hover p
+{
+    opacity: 1;
+
+}
+
+.item:hover img
+{
+    opacity: 0.4;
+
+}
+/* *
+{
+    border: solid;
+} */
+
+.aboutMe_logo a
+{
+    margin: 15px;
+/* margin-top: 5px;
+margin-right: 5px; */
+
+}
+
+.header h1
+{
+margin-top: 50px;
+}
+
+.item
+{
+margin-top: 30px;
+}
