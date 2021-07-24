@@ -48,8 +48,8 @@ body
 }
 .aboutMe_logo
 {
-    padding:20px;
-margin-top: 5px;
+    /* padding:20px; */
+margin-top: 15px;
 margin-right: 5px;
 
 }
@@ -84,13 +84,6 @@ opacity: 0;
     border: solid;
 } */
 
-.aboutMe_logo a
-{
-    margin-top: 5px;
-/* margin-top: 5px;
-margin-right: 5px; */
-
-}
 
 .header h1
 {
@@ -101,3 +94,7 @@ margin-top: 50px;
 {
 margin-top: 30px;
 }
+/* .aboutMe_logo
+{
+opacity: 0;
+} */
